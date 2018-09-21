@@ -14,6 +14,8 @@
 		A74DE6D1214F941B005D75C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74DE6CF214F941B005D75C1 /* LaunchScreen.storyboard */; };
 		A74DE6DC214F941B005D75C1 /* TapNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DE6DB214F941B005D75C1 /* TapNumberTests.swift */; };
 		A74DE6E7214F941B005D75C1 /* TapNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DE6E6214F941B005D75C1 /* TapNumberUITests.swift */; };
+		A74DE6F5214F955B005D75C1 /* Baloo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A74DE6F4214F955B005D75C1 /* Baloo-Regular.ttf */; };
+		A74DE6F72150A2B2005D75C1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DE6F62150A2B2005D75C1 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A74DE6E2214F941B005D75C1 /* TapNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74DE6E6214F941B005D75C1 /* TapNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapNumberUITests.swift; sourceTree = "<group>"; };
 		A74DE6E8214F941C005D75C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74DE6F4214F955B005D75C1 /* Baloo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo-Regular.ttf"; sourceTree = "<group>"; };
+		A74DE6F62150A2B2005D75C1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				A74DE6C6214F9418005D75C1 /* AppDelegate.swift */,
 				A74DE6C8214F9418005D75C1 /* ViewController.swift */,
+				A74DE6F62150A2B2005D75C1 /* ResultViewController.swift */,
 				A74DE6CA214F9418005D75C1 /* Main.storyboard */,
+				A74DE6F4214F955B005D75C1 /* Baloo-Regular.ttf */,
 				A74DE6CD214F941B005D75C1 /* Assets.xcassets */,
 				A74DE6CF214F941B005D75C1 /* LaunchScreen.storyboard */,
 				A74DE6D2214F941B005D75C1 /* Info.plist */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74DE6D1214F941B005D75C1 /* LaunchScreen.storyboard in Resources */,
+				A74DE6F5214F955B005D75C1 /* Baloo-Regular.ttf in Resources */,
 				A74DE6CE214F941B005D75C1 /* Assets.xcassets in Resources */,
 				A74DE6CC214F9418005D75C1 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +265,7 @@
 			files = (
 				A74DE6C9214F9418005D75C1 /* ViewController.swift in Sources */,
 				A74DE6C7214F9418005D75C1 /* AppDelegate.swift in Sources */,
+				A74DE6F72150A2B2005D75C1 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
